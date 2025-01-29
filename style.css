@@ -22,7 +22,6 @@
     color: white;
     width: 360px;
     border-radius: 1rem;
-    border: 2px solid white;
   }
   .main-content{
     background-color: #121212;
@@ -30,7 +29,6 @@
     flex: 1;
     overflow: auto;
     border-radius: 1rem;
-    border: 2px solid white;
     padding: 0 1.5rem 0 1.5rem;
 
   }
