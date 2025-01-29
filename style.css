@@ -12,6 +12,9 @@
     border: border-box;
     font-family: 'Montserrat' ,sans-serif;
   }
+  body{
+    background-color: black;
+  }
 
   .main{
     display: flex;
@@ -22,8 +25,10 @@
     color: white;
     width: 360px;
     border-radius: 1rem;
+    margin-top: 0.3rem;
   }
   .main-content{
+    margin-top: 1rem;
     background-color: #121212;
     color: white;
     flex: 1;
@@ -133,6 +138,7 @@
     border-radius: 2rem;
     font-weight: 700;
     font-size: 0.9rem;
+    cursor: pointer;
 }
 .box2{
     background-color: #232323;
@@ -275,7 +281,7 @@
 }
 .upper{
     height: 50%;
-    width: 90%;
+    width: 85%;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -286,7 +292,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
     
 }
 .player-input{
@@ -323,7 +329,7 @@
 }
 .player-input-2{
     height: 5px;
-    background: rgb(114, 196, 114);
+    background: rgb(128, 210, 128);
     appearance: none;
     cursor: pointer;
     border-radius: 2rem;
